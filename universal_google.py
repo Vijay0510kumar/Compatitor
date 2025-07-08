@@ -2,7 +2,7 @@ from googlesearch import search
 import requests
 from bs4 import BeautifulSoup
 import re
-from app.llm_matcher import is_match
+from llm_matcher import is_match
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
