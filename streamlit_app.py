@@ -1,5 +1,5 @@
 import streamlit as st
-from app.main import get_prices
+from main import get_prices
 import pandas as pd
 import sys
 import os
